@@ -9,7 +9,7 @@ WORKDIR /ramzes-cypress-ts
 
 #Let's copy the essential files that we MUST use to run our scripts.
 COPY ./package.json .
-COPY ./cypress.config.js .
+COPY ./cypress.config.ts .
 COPY ./tsconfig.json .
 # COPY ./cypress ./cypress
 
