@@ -2,15 +2,15 @@
 FROM cypress/included:9.4.1
 
 #Create the folder where our project will be stored
-RUN mkdir /ramzes-cypress-js
+RUN mkdir /ramzes-cypress-ts
 
 #We make it our workdirectory
-WORKDIR /ramzes-cypress-js
+WORKDIR /ramzes-cypress-ts
 
 #Let's copy the essential files that we MUST use to run our scripts.
 COPY ./package.json .
 COPY ./cypress.config.js .
-COPY ./jsconfig.json .
+COPY ./tsconfig.json .
 # COPY ./cypress ./cypress
 
 #Install the cypress dependencies in the work directory
