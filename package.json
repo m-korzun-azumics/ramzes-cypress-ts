@@ -1,13 +1,13 @@
 {
-  "name": "ramzes-cypress-js",
+  "name": "ramzes-cypress-ts",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "cypress:open": "cypress open --e2e --browser chrome",
-    "test-chrome": "cypress run --browser chrome --spec cypress/e2e/1-getting-started/*.cy.js",
+    "test-chrome": "cypress run --browser chrome --spec cypress/e2e/1-getting-started/*.cy.ts",
     "test-firefox": "cypress run --browser firefox",
-    "test": "cypress run --spec cypress/e2e/1-getting-started/*.cy.js"
+    "test": "cypress run --spec cypress/e2e/1-getting-started/*.cy.ts"
   },
   "keywords": [
     "cypress",

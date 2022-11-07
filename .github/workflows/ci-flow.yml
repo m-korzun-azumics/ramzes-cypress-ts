@@ -14,10 +14,10 @@ jobs:
         uses: cypress-io/github-action@v4
         timeout-minutes: 10
         with:
-          build: "docker build -t ramzes-cypress-js ."
+          build: "docker build -t ramzes-cypress-ts ."
           # start: npm run test-chrome
           browser: chrome
-          spec: cypress/e2e/1-getting-started/*.cy.js
+          spec: cypress/e2e/1-getting-started/*.cy.ts
 
       - name: Deploy report to Github Pages
         if: always()
