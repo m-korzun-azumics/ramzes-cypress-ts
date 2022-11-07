@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "checkJs": true,
+    "module": "commonjs",
+    "target": "ES6",
+    "types": [
+      "cypress",
+      "node",
+    ]
+  },
+  "include": ["cypress/**/*.js", "*.js", "cypress.config.ts", "cypress/e2e/1-getting-started/todo.cy.ts", "cypress/e2e/2-advanced-examples/actions.cy.ts", "cypress/e2e/2-advanced-examples/aliasing.cy.ts", "cypress/e2e/2-advanced-examples/assertions.cy.ts", "cypress/e2e/2-advanced-examples/connectors.cy.ts", "cypress/e2e/2-advanced-examples/cookies.cy.ts", "cypress/e2e/2-advanced-examples/window.cy.ts", "cypress/e2e/2-advanced-examples/waiting.cy.ts", "cypress/e2e/2-advanced-examples/viewport.cy.ts", "cypress/e2e/2-advanced-examples/utilities.cy.ts", "cypress/e2e/2-advanced-examples/traversal.cy.ts", "cypress/e2e/2-advanced-examples/spies_stubs_clocks.cy.ts", "cypress/e2e/2-advanced-examples/querying.cy.ts", "cypress/e2e/2-advanced-examples/network_requests.cy.ts", "cypress/e2e/2-advanced-examples/navigation.cy.ts", "cypress/e2e/2-advanced-examples/misc.cy.ts", "cypress/e2e/2-advanced-examples/location.cy.ts", "cypress/e2e/2-advanced-examples/local_storage.cy.ts", "cypress/e2e/2-advanced-examples/files.cy.ts", "cypress/e2e/2-advanced-examples/cypress_api.cy.ts"]
+}
